@@ -1,0 +1,33 @@
+ nav {
+        height: 60px;
+        padding: 5px;
+        background-color: gray;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 10;
+    }
+    .box2 {
+        box-sizing: border-box;
+        width: 25%;
+        background-color: white;
+        border: 5px solid white;
+        padding: 10px 35px;
+        height: 600px;
+        float: left;
+    }
+    nav a {
+        color: white;
+        float: left;
+        width: 25%;
+        box-sizing: border-box;
+        font-size: 30px;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    .texto{
+        padding: 0px 100px;
+        position: relative;
+        margin-top: 150px;
+    }
