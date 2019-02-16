@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Banderas</title>
+	<style>
+	body {
+		margin: 0;
+	}
+	.españa {
+		position: relative;
+		background-color: yellow;
+		height: 440px;
+		width: 660px;
+		box-sizing: border-box;
+		margin: 30px;
+		z-index: 0;
+		border: 2px solid black;
+	}
+	.franjasup {
+		background-color: red;
+		width: 100%;
+		height: 110px;
+		position: absolute;
+		top: 0;
+		z-index: 1;
+	}
+	.franjainf {
+		background-color: red;
+		width: 100%;
+		height: 110px;
+		position: absolute;
+		bottom: 0;
+		z-index: 1;
+	}
+	.dinamarca {
+		position: absolute;
+		float: right;
+		background-color: white;
+		height: 440px;
+		width: 660px;
+		box-sizing: border-box;
+		border: 2px solid black;
+		margin: 30px;
+		z-index: 0;
+		top: 0;
+		right: 0;
+	}
+	.cuadrosupizq {
+		position: absolute;
+		background-color: red;
+		height: 200px;
+		width: 200px;
+		z-index: 1;
+	}
+	.cuadroinfizq {
+		position: absolute;
+		background-color: red;
+		height: 200px;
+		width: 200px;
+		z-index: 1;
+		bottom: 0;
+		left: 0;
+		display: inline;
+	}
+	.franjasupder {
+		position: absolute;
+		background-color: red;
+		height: 200px;
+		width: 420px;
+		z-index: 1;
+		top: 0;
+		right: 0;
+	}
+	.franjainfder {
+		position: absolute;
+		background-color: red;
+		height: 200px;
+		width: 420px;
+		z-index: 1;
+		bottom: 0;
+		right: 0;
+	}
+	
+	.emiratos {
+		position: absolute;
+		background-color: red;
+		height: 440px;
+		width: 660px;
+		margin: 30px;
+		border: 2px solid black;		
+		box-sizing: border-box;
+		z-index: 0;
+		top: 600px;
+	}
+	.franjaverde {
+		position: absolute;
+		top: 0;
+		right: 0;
+		z-index: 1;
+		height: 146.6666666px;
+		background-color: green;
+		width: 480px;
+	}
+	.franjablanca {
+		position: absolute;
+		top: 146.6666666px;
+		right: 0;
+		z-index: 1;
+		height: 146.6666666px;
+		background-color: white;
+		width: 480px;
+	}
+	.franjanegra {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		z-index: 1;
+		height: 146.6666666px;
+		background-color: black;
+		width: 480px;
+	}
+	#japon {
+		position: absolute;
+		background-color: white;
+		height: 440px;
+		width: 660px;
+		box-sizing: border-box;
+		border: 2px solid black;
+		margin: 30px;
+		z-index: 0;
+		top: 600px;
+        right: 0;	
+    }
+	.pelotaroja {
+		position: absolute;
+		width: 200px;
+		height: 200px;
+		border-radius: 50%;
+		background-color: red;
+		z-index: 1;
+		top: 120px;
+		left: 230px;
+	}
+	h2	{
+		margin-top: 450px;
+	}
+	</style>
+</head>
+<body>
+	<div class="fondo españa">
+		<div class="franjasup"></div>
+		<div class="franjainf"></div>
+		<h2>España</h2>
+	</div>
+	
+	<div class="fondo dinamarca">
+		<div class="cuadrosupizq"></div>
+		<div class="cuadroinfizq"></div>
+		<div class="franjasupder"></div>
+		<div class="franjainfder"></div>
+		<h2>Dinamarca</h2>
+	</div>
+	
+	<div class="emiratos">
+		<div class="franjaverde"></div>
+		<div class="franjablanca"></div>
+		<div class="franjanegra"></div>
+		<h2>Emiratos Árabes</h2>
+	</div>
+
+	<div id="japon">
+		<div class="pelotaroja"></div>
+		<h2>Japón</h2>
+	</div>
+
+</body>
+</html>
